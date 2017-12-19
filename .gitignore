@@ -1,0 +1,8 @@
+/log
+/node_modules
+npm-debug.log
+.webpack_cache
+**/.DS_Store
+.vscode
+.cache
+stats.json
