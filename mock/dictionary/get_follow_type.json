@@ -1,0 +1,36 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "id": 57654,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57653,
+        "name": "电话回访",
+        "code": "follow.type.tel",
+        "status": 1
+    }, {
+        "id": 57709,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57653,
+        "name": "微信",
+        "code": "follow.type.wechat",
+        "status": 1
+    }, {
+        "id": 57655,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57653,
+        "name": "上门拜访",
+        "code": "follow.type.visit",
+        "status": 1
+    }]
+}

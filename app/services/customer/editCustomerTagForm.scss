@@ -1,0 +1,51 @@
+.modal {
+  :global {
+    .ant-form-item-control .ant-input {
+      min-height: 40px;
+      line-height: 30px;
+    }
+  }
+  .title {
+    font-family: PingFangSC-Regular, sans-serif;
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 12px;
+  }
+  .box {
+    padding: 15px;
+    max-height: 200px;
+    overflow: auto;
+    border: 1px solid #e0e4e8;
+    border-radius: 2px;
+  }
+  .tags {
+    .tag {
+      :global {
+        .ant-checkbox-group-item {
+          margin-bottom: 12px;
+          line-height: 30px;
+          .ant-checkbox {
+            display: none;
+            &.ant-checkbox-checked {
+              & + span {
+                background-color: rgba(71, 83, 114, 0.1);
+                color: #475372;
+                border-color: transparent;
+              }
+            }
+            & + span {
+              border-radius: 2px;
+              color: #999999;
+              padding: 6px 11px;
+              background-color: #fff;
+              border: 1px solid #e0e4e8;
+              font-family: PingFangSC-Regular;
+              font-size: 12px;
+              color: #999999;
+            }
+          }
+        }
+      }
+    }
+  }
+}

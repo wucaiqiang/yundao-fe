@@ -1,0 +1,133 @@
+.page {
+  padding: 24px;
+  .nopermission {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  .empty {
+    padding: 70px;
+    text-align: center;
+  }
+  .funnel {
+    text-align: center;
+    :global {
+      .funnel_item {
+        display: inline-block;
+        margin-right: 10px;
+        .funnel_item_rec {
+          margin-right: 10px;
+          height: 100%;
+          padding: 0 15px;
+          border-radius: 3px;
+          background-color: #dedede;
+        }
+
+        &:nth-child(1) .funnel_item_rec {
+          background-color: #c23531;
+        }
+        &:nth-child(2) .funnel_item_rec {
+          background-color: #304554;
+        }
+        &:nth-child(3) .funnel_item_rec {
+          background-color: #60a0a8;
+        }
+        &:nth-child(4) .funnel_item_rec {
+          background-color: #d48264;
+        }
+      }
+    }
+  }
+  .collapse {
+    margin: 0 auto;
+    padding: 3px 0;
+    width: 80px;
+    background-color: #fff;
+    color: #108ee9;
+    text-align: center;
+    cursor: pointer;
+    :global {
+      .anticon {
+        margin-left: 3px;
+      }
+    }
+  }
+  .mb21 {
+    margin-bottom: 21px;
+  }
+  .hidden {
+    display: none;
+  }
+  .chart {
+    #funnel,
+    #radar {
+      height: 400px;
+    }
+  }
+  .grid {
+    padding: 15px 15px 20px;
+    width: 25%;
+    height: 150px;
+    color: #999;
+    .statusName {
+      position: relative;
+      text-indent: 25px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #505050;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 10px;
+        top: 4px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #f2d4aa;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        left: 13px;
+        bottom: -15px;
+        width: 1px;
+        height: 14px;
+        background-color: #f8f8f8;
+      }
+    }
+    .projectName {
+      margin-top: 15px;
+      margin-bottom: 9px;
+      padding: 13px;
+      font-size: 13px;
+      font-weight: 100;
+      color: #666;
+      background-color: #f8f8f8;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .action {
+      float: right;
+      margin-top: 4px;
+    }
+    :global {
+      .ant-btn {
+        border-radius: 4px;
+        border-color: #108ee9;
+        font-weight: 400;
+        color: #108ee9;
+        &:hover {
+          color: #fff;
+          background-color: #108ee9;
+        }
+      }
+
+      .ant-card-wider-padding .ant-card-extra {
+        top: 0;
+      }
+    }
+  }
+}

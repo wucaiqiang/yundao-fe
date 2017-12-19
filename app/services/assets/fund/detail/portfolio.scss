@@ -1,0 +1,68 @@
+.block:not(:first-child) {
+  margin-bottom: 40px;
+}
+
+.header {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  &_title,
+  &_label {
+    color: #333;
+  }
+  &_title {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+}
+
+.list {
+  :global {
+    .ant-card-head {
+      padding-left: 24px;
+      background-color: #f6f7f8;
+    }
+    .ant-card-body {
+      padding: 20px;
+    }
+  }
+
+  font-size: 14px;
+  &_row {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e9e9e9;
+    }
+    &_head {
+      margin-bottom: 18px;
+    }
+    &_title {
+      font-size: 14px;
+      font-weight: 500;
+      color: #333;
+    }
+    &_date {
+      font-size: 12px;
+      color: #999;
+      text-align: right;
+    }
+    &_action {
+      font-size: 12px;
+      text-align: right;
+
+      a:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+.found_list {
+  &_item {
+    &:first-child {
+      margin-top: -10px;
+    }
+    list-style: none;
+    margin-bottom: 10px;
+  }
+}

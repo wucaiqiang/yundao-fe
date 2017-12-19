@@ -1,0 +1,63 @@
+.modal {
+  :global{
+    .ant-modal-body{
+      padding:36px;
+    }
+
+    .ant-table-thead > tr > th {
+      background-color: rgba(224, 228, 232, 0.5);
+      .ant-table-filter-selected.anticon-filter {
+        color: #d4a667;
+      }
+    }
+    .ant-table-tbody > tr {
+      color: #333;
+      &:hover,
+      &.ant-table-row-hover {
+        > td {
+          background-color: rgba(242, 212, 170, 0.12);
+        }
+      }
+    }
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+      text-overflow: ellipsis;
+      word-break: break-all;
+      overflow: hidden;
+    }
+  }
+  .header {
+    border-bottom: 1px solid #E0E4E8;
+    p{
+        margin-bottom: 26px;
+    }
+    .label {
+      font-family: PingFangSC-Regular;
+      font-size: 16px;
+      color: #999999;
+    }
+    .content {
+      font-family: PingFangSC-Regular;
+      font-size: 17px;
+      color: #444444;
+    }
+  }
+  .body{
+    margin-top: 53px;
+      :global{
+          .vant-filter-bar{
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #444444;
+            a{
+                font-family: PingFangSC-Medium;
+                font-size: 14px;
+                color: #D4A667;
+                .anticon{
+                  margin-right: 4px;
+                }
+            }
+          }
+      }
+  }
+}

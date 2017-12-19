@@ -1,0 +1,125 @@
+.body {
+  margin: -24px;
+  display: flex;
+  flex-direction: column;
+  background: url(/assets/images/login/bg@1x.jpg) no-repeat center;
+  background-size: cover;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    .form {
+      padding: 50px 40px;
+      width: 440px;
+      background-color: #fff;
+      opacity: 0.92;
+      box-shadow: 0 3px 3px 0 rgba(119, 119, 119, 0.5);
+      border-radius: 5px;
+      :global {
+        .ant-form-item {
+          margin-bottom: 40px;
+          .ant-form-item-control {
+            position: relative;
+          }
+        }
+        .ant-input-lg {
+          padding-left: 0;
+          color: #666;
+          border-radius: 0 !important;
+          border-width: 0 0 2px 0;
+          border-bottom-color: #e0e4e8;
+          &:hover {
+            border-color: #e0e4e8 !important;
+          }
+          &:focus {
+            border-color: #e0e4e8 !important;
+            box-shadow: none !important;
+          }
+          &:-webkit-autofill,
+          &:-webkit-autofill:hover,
+          &:-webkit-autofill:focus {
+            -webkit-text-fill-color: #666;
+            transition: background-color 5000s ease-in-out 0s;
+            box-shadow: 0 0 0 30px white inset;
+          }
+        }
+        .ant-btn-lg {
+          width: 100%;
+          height: 50px;
+          font-size: 16px;
+          color: #f2d5aa;
+          background-color: #465174;
+          border-color: #465174;
+          border-radius: 1px;
+        }
+      }
+      .title {
+        font-size: 24px;
+        font-weight: 400;
+        color: #465174;
+      }
+      .caption {
+        margin-top: 16px;
+        margin-bottom: 42px;
+        color: #999;
+        line-height: 14px;
+        font-size: 14px;
+      }
+      .formitem {
+        :global {
+          .ant-form-item:last-child {
+            margin-top: 63px;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .btnSubmit {
+        margin-top: 23px;
+        width: 100%;
+        height: 50px;
+        background-color: #465174;
+        color: #f2d5aa;
+        font-size: 16px;
+        border-radius: 1px;
+        border: none;
+      }
+      .btnCode {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        padding: 0;
+        width: 80px;
+        height: 22px;
+        font-size: 12px;
+        color: #d4a667;
+        border-color: #d4a667;
+        background-color: transparent;
+        &:disabled {
+          color: #999;
+          background-color: rgba(204, 204, 204, 0.35);
+          border-color: rgba(204, 204, 204, 0);
+        }
+      }
+      .links {
+        margin-top: 17px;
+        margin-bottom: 16px;
+        line-height: 20px;
+        text-align: right;
+        font-size: 14px;
+        color: #999;
+        .login {
+          margin-left: 10px;
+          color: #d4a667;
+        }
+        a {
+          color: #d4a667;
+        }
+      }
+    }
+  }
+  .footer {
+    height: 100px;
+    text-align: center;
+  }
+}

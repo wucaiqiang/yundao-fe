@@ -1,0 +1,46 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "id": 57672,
+        "creatorId": null,
+        "createTime": "2016-07-06 11:13:46",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57671,
+        "name": "信托资管",
+        "code": "preference.code.fix",
+        "status": 1
+    }, {
+        "id": 57673,
+        "creatorId": null,
+        "createTime": "2016-07-06 11:13:46",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57671,
+        "name": "阳光私募",
+        "code": "preference.code.private",
+        "status": 1
+    }, {
+        "id": 57674,
+        "creatorId": null,
+        "createTime": "2016-07-06 11:13:46",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57671,
+        "name": "私募股权",
+        "code": "preference.code.stock",
+        "status": 1
+    }, {
+        "id": 57675,
+        "creatorId": null,
+        "createTime": "2016-07-06 11:13:46",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57671,
+        "name": "保险",
+        "code": "preference.code.insurance",
+        "status": 1
+    }]
+}

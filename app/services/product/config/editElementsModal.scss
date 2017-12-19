@@ -1,0 +1,49 @@
+.body {
+  display: flex;
+  .tabbar {
+    width: 160px;
+    .title {
+      border-bottom: 1px solid #e0e4e8;
+      font-family: PingFangSC-Medium, sans-serif;
+      font-size: 14px;
+      color: #666666;
+      height: 55px;
+      border-right: 1px solid #e0e4e8;
+      padding-left: 24px;
+      line-height: 55px;
+    }
+    :global {
+      .ant-menu-inline,
+      .ant-menu-vertical {
+        border-right-color: #e0e4e8;
+      }
+      .ant-menu-item {
+        font-family: PingFangSC-Regular, sans-serif;
+        font-size: 14px;
+        color: #666666;
+      }
+      .ant-menu-item-selected {
+        &.ant-menu-item {
+          background-color: rgba(242, 212, 170, 0.2);
+          color: #666666;
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .tabContent {
+    flex: 1;
+    padding: 28px 24px;
+  }
+}
+
+.edit_elements_modal {
+  :global {
+    .ant-modal-body {
+      padding: 0;
+      overflow: auto;
+    }
+  }
+}

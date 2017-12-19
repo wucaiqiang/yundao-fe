@@ -1,0 +1,16 @@
+.modal {
+  :global {
+    .ant-modal-body {
+      padding: 35px 40px;
+      .ant-calendar-picker {
+        width: 100%;
+      }
+      .ant-input-number-lg {
+        width: 92%;
+        // .ant-input-number-input {
+        //   height: 38px;
+        // }
+      }
+    }
+  }
+}

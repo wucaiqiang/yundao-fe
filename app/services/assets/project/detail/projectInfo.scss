@@ -1,0 +1,53 @@
+.content {
+  word-break: break-word;
+  .industry {
+    display: flex;
+    :global {
+      .ant-form-item {
+        min-height: auto;
+        padding: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  :global {
+    .ant-form-item {
+      padding: 10px;
+      min-height: 110px;
+      border-radius: 2px;
+
+      .ant-form-item-label label {
+        font-size: 13px;
+      }
+      .ant-form-item-control {
+        font-size: 15px;
+      }
+      .anticon {
+        visibility: hidden;
+        cursor: pointer;
+      }
+      .ant-btn-plus {
+        margin-top: 5px;
+
+        .anticon-plus {
+          visibility: visible;
+        }
+      }
+      .anticon-plus {
+        display: inline-block;
+      }
+    }
+
+    .ant-form-item:hover {
+      background-color: #f2f4f7;
+      .anticon {
+        visibility: visible;
+      }
+    }
+  }
+}
+.action {
+  padding: 0px 5px;
+  cursor: pointer;
+}

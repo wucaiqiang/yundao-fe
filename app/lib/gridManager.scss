@@ -1,0 +1,43 @@
+.grid_sort_filter {
+  border-bottom: 1px solid #e0e4e8;
+  padding-bottom: 12px;
+  font-family: PingFangSC-Regular, sans-serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+  a {
+    display: block;
+    color: #475272;
+    img {
+      width: 10px;
+      margin-right: 8px;
+    }
+  }
+}
+
+.advancedsearch {
+  position: relative;
+  padding-bottom: 10px;
+
+  .filterForm {
+    display: none;
+    padding-top: 10px;
+    background-color: #fff;
+    transition: height 0.3s ease-in-out;
+    &.show {
+      display: block;
+    }
+  }
+  .more {
+    margin-right: 10px;
+    padding-bottom: 10px;
+    &:hover .filterForm {
+      display: block;
+    }
+  }
+
+  :global {
+    .ant-tag {
+      margin-bottom: 10px;
+    }
+  }
+}

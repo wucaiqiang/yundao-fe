@@ -1,0 +1,46 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "id": null,
+        "creatorId": null,
+        "createTime": null,
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": null,
+        "name": "未处理",
+        "code": "-1",
+        "status": null
+    }, {
+        "id": null,
+        "creatorId": null,
+        "createTime": null,
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": null,
+        "name": "预约中",
+        "code": "0",
+        "status": null
+    }, {
+        "id": null,
+        "creatorId": null,
+        "createTime": null,
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": null,
+        "name": "预约成功",
+        "code": "1",
+        "status": null
+    }, {
+        "id": null,
+        "creatorId": null,
+        "createTime": null,
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": null,
+        "name": "已转订单",
+        "code": "4",
+        "status": null
+    }]
+}

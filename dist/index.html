@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name=”renderer” content=”webkit” />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="云道，yundao，yundaojinfu，知人网络，深圳知人网络有限公司，私募，财富管理，CRM ，移动CRM，SaaS，项目管理，团队协作">
+  <meta name="description" content="云道金服，作为私募行业领先的一站式企业服务平台，致力于推进私募金融行业的流程化、智能化， 帮助企业降低运营成本，提高工作效率，实现可持续的业务增长。">
+  <title>云道金服-私募行业企业服务平台</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/nprogress.js"></script>
+  <script src="//imgcache.qq.com/open/qcloud/js/vod/sdk/ugcUploader.js"></script>
+  
+  <style>
+    .IE8-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+    }
+
+    .IE8-modal .mask {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000;
+      opacity: .3;
+      filter: alpha(opacity=30);
+      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+    }
+
+    .IE8-modal .content {
+      width: 400px;
+      margin: 0px auto;
+      top: 50%;
+      position: absolute;
+      height: 200px;
+      margin-top: -100px;
+      left: 50%;
+      margin-left: -200px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    .IE8-modal .content p {
+      font-size: 16px;
+      padding:0px 20px;
+      margin-top: 30px;
+    }
+
+    .IE8-modal .content .links {
+      margin-top: 40px;
+    }
+
+    .IE8-modal .content .links a {
+      padding: 0px 20px;
+      font-size: 16px;
+      color: #108ee9;
+    }
+
+    .IE8-modal .content .links a:last-child {
+      float: right;
+    }
+
+  </style>
+
+
+</head>
+
+<body>
+  <script>
+    var userAgent = navigator.userAgent;
+    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1;
+    var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+    reIE.test(userAgent);
+    var fIEVersion = parseFloat(RegExp["$1"]);
+    var LtIE8 = fIEVersion <= 8.0;
+    if (LtIE8) {
+      var modal =
+        '<div class="IE8-modal"><div class="mask"></div><div class="content"><p>您使用的浏览器版本过低，可能有安全风险，您可以选择</p><div class="links"><a target="_blank" alt="获取最新浏览器" href="http://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads">IE浏览器最新版</a>  <a target="_blank" href="http://down.tech.sina.com.cn/download/d_load.php?d_id=40975&down_id=9&ip=119.137.53.224">Chrome浏览器</a></div></div></div>';
+      var modalContainer = document.createElement("div");
+      modalContainer.id = 'IE8-modal';
+      modalContainer.innerHTML = modal;
+      document.body.appendChild(modalContainer);
+    }
+
+  </script>
+  <script>
+    NProgress.start();
+
+  </script>
+  <div id="app"></div>
+<script type="text/javascript" src="/assets/js/vendor.8ed75296.min.js"></script><script type="text/javascript" src="/assets/js/app.549ba278.min.js"></script></body>
+
+</html>

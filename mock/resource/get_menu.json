@@ -1,0 +1,57 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": {
+        "menu": [{
+            "id": 1,
+            "parentId": 0,
+            "code": "system",
+            "path": "/system/",
+            "name": "系统管理",
+            "check": null,
+            "childs": [{
+                "id": 2,
+                "parentId": 1,
+                "code": "system.role.role_page",
+                "path": "/system/config/role",
+                "name": "角色管理",
+                "check": null,
+                "childs": []
+            }, {
+                "id": 3,
+                "parentId": 1,
+                "code": "system.user.user_page",
+                "path": "/user/user_page",
+                "name": "员工管理",
+                "check": null,
+                "childs": []
+            }, {
+                "id": 6,
+                "parentId": 1,
+                "code": "system.config.organization",
+                "path": "/system/config/organization",
+                "name": "组织结构管理",
+                "check": null,
+                "childs": []
+            }]
+        }, {
+            "id": 4,
+            "parentId": 0,
+            "code": "proconf",
+            "path": "/proconf/",
+            "name": "产品配置",
+            "check": null,
+            "childs": [{
+                "id": 5,
+                "parentId": 4,
+                "code": "proconf.product.config.elements",
+                "path": "/product/config/elements",
+                "name": "产品要素配置",
+                "check": null,
+                "childs": []
+            }]
+        }],
+        "auth": null
+    }
+}

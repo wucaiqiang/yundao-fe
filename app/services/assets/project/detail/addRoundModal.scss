@@ -1,0 +1,11 @@
+.modal {
+  :global {
+    .ant-modal-body {
+      padding: 35px 40px;
+      .ant-input-number-lg {
+        width: 91%;
+        line-height: 38px;
+      }
+    }
+  }
+}

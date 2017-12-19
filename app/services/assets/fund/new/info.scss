@@ -1,0 +1,132 @@
+.base_info {
+  :global {
+    .ant-row {
+      display: flex;
+      padding: 0px 10px;
+      .ant-form-item-label {
+        width: 140px;
+      }
+      .ant-form-item-control-wrapper {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.product_detail {
+  min-width: 800px;
+  overflow-x: auto;
+  :global {
+    .ant-upload {
+      &.ant-upload-select {
+        display: block;
+        .ant-btn {
+          display: block;
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          &:hover,
+          &:focus {
+            border-color: rgba(242, 212, 170, 0.75) !important;
+            box-shadow: 0 0 0 2px rgba(242, 212, 170, 0.2) !important;
+            color: rgba(242, 212, 170, 1) !important;
+          }
+        }
+      }
+    }
+    .ant-form-item-label {
+      text-align: left;
+      label {
+        color: #999;
+        &:before {
+          display: inline-block;
+          margin-right: 4px;
+          content: " ";
+          font-family: SimSun;
+          line-height: 1;
+          font-size: 12px;
+          color: #f04134;
+          width: 10px;
+        }
+      }
+      .ant-form-item-required:before {
+        content: "*";
+      }
+    }
+    .ant-input {
+      height: 40px;
+    }
+    .ant-radio-group,
+    .ant-checkbox-group {
+      display: flex;
+    }
+    .ant-input-group {
+      text-align: left;
+      .ant-number-range-separator {
+        margin-right: 8px;
+      }
+    }
+    .ant-form-item-control {
+      text-align: left;
+      .ant-input-number {
+        height: 40px;
+        width: 130px;
+      }
+      .dynamic_image {
+        .images {
+          .image {
+            width: auto;
+            padding: 0px 12px;
+            margin-top: 8px;
+            height: 40px;
+            background: #f7f7f7;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .name {
+              font-family: PingFangSC-Regular;
+              font-size: 14px;
+              color: #666666;
+            }
+            .del {
+              font-family: PingFangSC-Regular;
+              font-size: 14px;
+              color: #c8a775;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+    .ant-upload-list {
+      &.ant-upload-list-text-card {
+        .ant-upload-list-item {
+          background: #f7f7f7;
+          border-radius: 2px;
+          height: 40px;
+          line-height: 40px;
+          .ant-upload-list-item-info {
+            line-height: 40px;
+            padding: 0px;
+            background: #f7f7f7;
+            .anticon-paper-clip {
+              display: none;
+            }
+          }
+          .anticon-cross {
+            font-family: PingFangSC-Regular, sans-serif;
+            font-size: 14px;
+            color: #d4a667;
+            line-height: 40px;
+            top: 0px;
+            opacity: 1;
+            &:before {
+              content: "删除";
+            }
+          }
+        }
+      }
+    }
+  }
+}

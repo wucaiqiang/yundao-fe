@@ -1,0 +1,124 @@
+.product_detail {
+  background-color: #f2f4f7;
+  .header {
+    padding: 30px 29px 0px;
+    background-color: #fff;
+    .title {
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 24px;
+      color: #475372;
+      margin-bottom: 15px;
+    }
+    .focus {
+      font-size: 16px;
+      font-weight: 400;
+      border-width: 0;
+      color: #444;
+      &_ico {
+        color: #d4a667;
+        font-size: 18px;
+      }
+    }
+    .product {
+      margin-bottom: 15px;
+    }
+    .status {
+      margin-left: 30px;
+      font-size: 14px;
+    }
+
+    :global {
+      .ant-select {
+        margin-left: 30px;
+        width: 140px;
+      }
+      .anticon {
+        margin-left: 10px;
+        vertical-align: middle;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .tags {
+    padding-bottom: 18px;
+    span {
+      display: inline-block;
+      background: rgba(71, 83, 114, 0.1);
+      border-radius: 2px;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 12px;
+      color: #475372;
+      padding: 7px 11px;
+      margin-right: 12px;
+    }
+  }
+  .summary {
+    font-family: PingFangSC-Regular, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 25px;
+  }
+  .body {
+    background-color: #f2f4f7;
+  }
+}
+
+.content {
+  :global {
+    .ant-popover-inner-content {
+      .ant-popover-message-title {
+        padding-left: 20px;
+        line-height: 1.5;
+        font-size: 12px;
+        color: #656565;
+      }
+      .anticon-exclamation-circle {
+        display: inline-block;
+      }
+    }
+    .ant-tabs-bar {
+      margin-bottom: 0;
+      background: #fff;
+      border-bottom-width: 0;
+      font-weight: 400;
+      .ant-tabs-nav-wrap {
+        padding-left: 22px;
+      }
+      .ant-tabs-tab {
+        padding: 13px 10px;
+      }
+    }
+    .ant-tabs-tabpane {
+      padding: 22px;
+      background-color: #f2f4f7;
+    }
+
+    .ant-steps .ant-steps-title {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .ant-form-item-label label {
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 14px;
+      color: #999;
+      line-height: 40px;
+    }
+    .ant-form-item-control {
+      line-height: 40px !important;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 17px;
+      color: #666;
+      .ant-form-explain {
+        font-size: 12px;
+      }
+    }
+
+    .ant-btn {
+      border-radius: 4px;
+      border-color: #108ee9;
+      color: #108ee9;
+    }
+  }
+}

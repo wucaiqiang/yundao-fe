@@ -1,0 +1,25 @@
+.modal {
+    :global {
+      .ant-modal-body {
+        padding: 35px 40px;
+        .ant-calendar-picker {
+          width: 100%;
+        }
+        // .ant-input-number-lg {
+        //   .ant-input-number-input {
+        //     height: 38px;
+        //   }
+        // }
+      }
+    }
+    // .position{
+    //   display: flex;
+    // }
+  }
+  
+  :global {
+    .ant-confirm-confirm .ant-confirm-body > .anticon-check-circle {
+      color: #00a854;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+:global {
+  .multipleForm-table .ant-table-thead > tr,
+  .multipleForm-table .ant-table-tbody > tr {
+    transition: none;
+  }
+}
+
+.btns {
+  position: relative;
+  top: -40px;
+  z-index: 1;
+  text-align: center;
+  :global {
+    .anticon {
+      cursor: pointer;
+      color: #d4a667;
+    }
+  }
+}

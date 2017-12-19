@@ -1,0 +1,21 @@
+
+.operation{
+    a{
+      padding-right: 10px;
+    }
+    :global{
+      .status{
+        padding-right: 10px;
+      }
+    }
+  }
+  
+
+  .drop_menu{
+    :global{
+      .ant-dropdown-menu-item{
+        padding:10px 20px;
+        font-size: 13px;
+      }
+    }
+  }

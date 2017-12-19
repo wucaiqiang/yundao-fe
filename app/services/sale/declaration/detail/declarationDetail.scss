@@ -1,0 +1,453 @@
+:global {
+  .float-declaration-detail-wrap {
+    z-index: 11;
+  }
+}
+
+.declaration_detail {
+  background-color: #f2f4f7;
+  .header {
+    padding: 20px;
+    background-color: #fff;
+    font-family: PingFangSC-Regular, sans-serif;
+    .number {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      color: #999;
+      font-size: 15px;
+      span {
+        margin-right: 10px;
+      }
+    }
+    .status {
+      background: rgba(224, 228, 232, 0.25);
+      font-family: PingFangSC-Medium;
+      font-size: 16px;
+      color: #666666;
+      border-radius: 2px;
+      padding: 9px 16px;
+      display: inline-block;
+      margin-left: 23px;
+    }
+    .remark {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #666666;
+      margin-top: 24px;
+    }
+    .summary {
+      .money,
+      .date {
+        display: inline-block;
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #666666;
+        position: relative;
+        span {
+          color: #999999;
+          margin-right: 10px;
+        }
+      }
+      .money {
+        padding-right: 23px;
+        &:after {
+          border: 1px solid #e0e4e8;
+          content: " ";
+          right: 0px;
+          width: 1px;
+          height: auto;
+          position: absolute;
+          top: 6px;
+          bottom: 3px;
+        }
+      }
+      .date {
+        margin-left: 23px;
+      }
+    }
+    .title {
+      font-size: 24px;
+      color: #475372;
+      margin-bottom: 25px;
+      padding-right: 200px;
+      .btnfollow {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        border-radius: 2px;
+        text-align: center;
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        background: #465174;
+        color: #f2d5aa;
+        :global {
+          img {
+            width: 18px;
+            margin-right: 6px;
+          }
+        }
+        &.active {
+          background: rgba(224, 228, 232, 0.2);
+          color: #666666;
+        }
+      }
+    }
+
+    .alert {
+      margin-bottom: 10px;
+    }
+  }
+  .tags {
+    span {
+      display: inline-block;
+      background: rgba(71, 83, 114, 0.1);
+      border-radius: 2px;
+      font-size: 12px;
+      color: #475372;
+      padding: 7px 11px;
+      margin-right: 12px;
+    }
+  }
+  .ant_btn_plus {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    min-width: 40px;
+    border-color: #f2d5aa;
+    float: right;
+    :global {
+      .anticon-plus {
+        color: #f04134;
+      }
+    }
+  }
+  .trading {
+    .title {
+      margin-top: 35px;
+      margin-bottom: 15px;
+      color: #999;
+      font-size: 14px;
+    }
+  }
+  .follow {
+    margin-right: -24px;
+    margin-left: -24px;
+    padding: 15px 24px 0;
+    border-top: 1px dotted #e0e4e8;
+  }
+  .follow,
+  .dynamic {
+    &_empty {
+      text-align: center;
+    }
+    &_item {
+      &:first-child {
+        .follow_item_time,
+        .dynamic_item_time {
+          &:before {
+            visibility: hidden;
+          }
+        }
+      }
+      &_time {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 32px;
+        font-size: 13px;
+        color: #475372;
+        &:before,
+        &:after {
+          content: " ";
+          position: absolute;
+          left: 20px;
+          width: 1px;
+          height: 14px;
+          background-color: #e0e4e8;
+        }
+        &:before {
+          top: 0;
+        }
+        &:after {
+          bottom: 0;
+        }
+        span:before {
+          content: " ";
+          position: absolute;
+          top: 17px;
+          left: 17px;
+          width: 7px;
+          height: 7px;
+          background-color: #f2d4aa;
+          border-radius: 50%;
+        }
+      }
+      &_body {
+        padding: 15px;
+        background-color: #f2f4f7;
+        color: #666;
+        &_label {
+          font-family: PingFangSC-Regular, sans-serif;
+          color: #2a2a2a;
+        }
+      }
+    }
+  }
+  .pagination {
+    margin-top: 30px;
+    text-align: right;
+    :global {
+      .ant-btn {
+        padding: 0 7px;
+        min-width: 18px;
+        border-color: #e9e9e9;
+        border-radius: 2px;
+        color: #d4a667;
+        &[disabled] {
+          color: #999;
+        }
+        &:last-child {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  padding: 1.5rem;
+  .card {
+    background: #ffffff;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    .header {
+      border-bottom: 1px solid #e0e4e8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 19px 20px;
+      .title {
+        font-family: PingFangSC-Medium, sans-serif;
+        font-size: 16px;
+        color: #475372;
+        margin-bottom: 0px;
+      }
+      .icons {
+        :global {
+          .anticon {
+            font-size: 16px;
+            margin-left: 10px;
+            display: inline-block;
+            cursor: pointer;
+            color: #f2d4aa;
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            img {
+              width: 16px;
+            }
+            &.anticon-edit {
+              font-size: 16px;
+              width: 16px;
+              height: 16px;
+            }
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .content {
+      padding: 24px 20px;
+      overflow: auto;
+      :global {
+        .ant-form-item-label label {
+          font-family: PingFangSC-Regular, sans-serif;
+          font-size: 14px;
+          color: #999;
+          line-height: 40px;
+        }
+        .ant-form-item-control {
+          line-height: 40px !important;
+          font-family: PingFangSC-Regular, sans-serif;
+          font-size: 17px;
+          color: #666;
+        }
+      }
+    }
+  }
+  :global {
+    .ant-tabs-ink-bar {
+      background: #f2d4aa;
+    }
+    .ant-tabs-bar {
+      margin-bottom: 0;
+      background-color: #fff;
+      border-bottom: 2px solid #e0e4e8;
+    }
+    .ant-tabs-tab {
+      margin-right: 0;
+      padding: 19px 28px 14px;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 18px;
+      color: #999999;
+      &.ant-tabs-tab-active {
+        color: #475372;
+      }
+    }
+    .ant-tabs-tabpane {
+      padding: 20px 20px 50px;
+      background-color: #fff;
+    }
+    .ant-card-head {
+      height: 60px;
+      line-height: 60px;
+      border-bottom: 2px solid #e0e4e8;
+      .ant-card-head-title {
+        color: #475372;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .actions {
+    margin-top: 35px;
+    margin-bottom: 45px;
+    text-align: right;
+    :global {
+      .ant-btn {
+        height: 40px;
+        background-color: #465174;
+        border-radius: 2px;
+        border-color: #465174;
+        font-size: 14px;
+        color: #f2d5aa;
+      }
+    }
+  }
+  .images {
+    .image {
+      width: 90px;
+      height: 90px;
+      display: block;
+      float: left;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-bottom: 10px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .video_noCover{
+        font-size: 12px;
+        line-height: 1;
+        word-break: break-word;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fbfbfb;
+        color: #666666;
+        border: 1px dashed #d9d9d9;
+      }
+
+      .video{
+        font-size: 12px;
+        line-height: 1;
+        word-break: break-word;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #867e7e;
+        color: #666666;
+        border: 1px dashed #d9d9d9;
+        position: relative;
+        :global{
+          .vcp-playtoggle {
+            cursor: pointer;
+            position: relative;
+            z-index: 1001;
+            width: 3em;
+            height: 100%;
+            float: left;
+            background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/play_btn.png);
+            background-image: url(//imgcache.qq.com/open/qcloud/video/vcplayer/img/play_btn.svg), none;
+            position: absolute;
+            left: 50%;
+            margin-left: -1.5em;
+            top: 50%;
+            margin-top: -1.5em;
+            height: 3em;
+          }
+        }
+      }
+
+      
+      .uploaded {
+        position: relative;
+        width: 90px;
+        height: 90px;
+        &:hover {
+          .btns {
+            display: block;
+          }
+        }
+        .btns {
+          display: none;
+          :global {
+            .anticon-close {
+              cursor: pointer;
+              position: absolute;
+              top: 10px;
+              left: 5px;
+              border-radius: 2px;
+              background: rgba(0, 0, 0, .3);
+              color: #D8D8D8;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .upload_btn {
+        background: #fbfbfb;
+        border: 1px dashed #d9d9d9;
+        border-radius: 2px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        flex-direction: column;
+        :global {
+          .anticon {
+            font-size: 24px;
+          }
+        }
+        p {
+          margin-top: 12px;
+          font-family: PingFangSC-Regular, sans-serif;
+          font-size: 12px;
+          color: #666666;
+          line-height: 18px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

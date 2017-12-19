@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  .input {
+    flex: 1;
+  }
+  .action {
+    display: flex;
+    align-items: center;
+     :global {
+      .anticon {
+        padding: 0px 5px;
+      }
+    }
+  }
+}

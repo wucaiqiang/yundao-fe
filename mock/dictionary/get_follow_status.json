@@ -1,0 +1,96 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "id": 57644,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "开场白",
+        "code": "follow.status.prologue",
+        "status": 1
+    }, {
+        "id": 57645,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "拒访",
+        "code": "follow.status.reject",
+        "status": 1
+    }, {
+        "id": 57646,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "成交",
+        "code": "follow.status.deal",
+        "status": 1
+    }, {
+        "id": 57647,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "关机",
+        "code": "follow.status.poweroff",
+        "status": 1
+    }, {
+        "id": 57648,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "已发资料",
+        "code": "follow.status.spread",
+        "status": 1
+    }, {
+        "id": 57649,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "无人接听",
+        "code": "follow.status.air",
+        "status": 1
+    }, {
+        "id": 57650,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "无效号码",
+        "code": "follow.status.invalid",
+        "status": 1
+    }, {
+        "id": 57651,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "忙音",
+        "code": "follow.status.business",
+        "status": 1
+    }, {
+        "id": 57652,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57643,
+        "name": "约访",
+        "code": "follow.status.arrange",
+        "status": 1
+    }]
+}

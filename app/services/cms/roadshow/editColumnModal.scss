@@ -1,0 +1,30 @@
+.modal {
+    :global {
+      .ant-modal-body {
+        padding: 35px 40px;
+        overflow-y: auto;
+        .ant-calendar-picker {
+          width: 100%;
+        }
+        // .ant-input-number-lg {
+        //   .ant-input-number-input {
+        //     height: 38px;
+        //   }
+        // }
+      }
+    }
+    // .position{
+    //   display: flex;
+    // }
+    .image{
+      max-width: 100%;
+      max-height: 400px;
+    }
+  }
+  
+  :global {
+    .ant-confirm-confirm .ant-confirm-body > .anticon-check-circle {
+      color: #00a854;
+    }
+  }
+  

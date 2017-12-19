@@ -1,0 +1,41 @@
+.page{
+    :global{
+        .ant-form-item-label{
+            text-align: left;
+            width: 200px;
+        }
+        .page-content{
+            padding:30px;
+        }
+    }
+    .operation{
+        display: flex;
+        align-items: center;
+        .clear{
+            border: none;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            border: 1px solid #465174;
+            margin-left: 10px;
+        }
+        .submit{
+            background-color: #465174;
+            border-radius: 2px;
+            border-color: #465174;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color:#fff;
+            font-family: PingFangSC-Medium, sans-serif;
+            font-size: 16px;
+            color: #f2d5aa;
+        }
+    }
+    .feature{
+        padding:12px 7px;
+    }
+}

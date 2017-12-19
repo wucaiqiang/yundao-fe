@@ -1,0 +1,107 @@
+.page {
+  :global {
+    .float-detail-wrap.open {
+      z-index: 9;
+    }
+    .ant-card {
+      margin-top: 22px;
+      .ant-card-head {
+        padding-left: 28px;
+        height: 56px;
+        line-height: 56px;
+      }
+    }
+    .ant-progress-line {
+      margin-left: 10px;
+      width: 250px;
+      .ant-progress-bg {
+        height: 6px !important;
+      }
+    }
+
+    .ant-input:focus,
+    .ant-input:hover {
+      border-color: #49a9ee !important;
+    }
+  }
+  padding: 22px;
+  .subTitle {
+    font-weight: 300;
+    color: #666;
+    &:first-child {
+      margin-left: 180px;
+    }
+    &:nth-child(2) {
+      margin-left: 10px;
+      margin-right: 135px;
+    }
+  }
+}
+
+.searchBar {
+  padding: 19px 21px;
+  background-color: #fff;
+  &_btn {
+    font-weight: 300;
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: #49a9ee;
+      border-color: #49a9ee;
+      color: #fff;
+    }
+  }
+}
+.empty {
+  padding: 70px;
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 22px;
+  text-align: right;
+}
+.grid {
+  padding: 15px 15px 0;
+  width: 25%;
+  color: #999;
+  &_name {
+    position: relative;
+    text-indent: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #505050;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 4px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #f2d4aa;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      left: 13px;
+      bottom: -15px;
+      width: 1px;
+      height: 14px;
+      background-color: #f8f8f8;
+    }
+  }
+  &_summary {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 13px;
+    background-color: #f8f8f8;
+    span {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+}

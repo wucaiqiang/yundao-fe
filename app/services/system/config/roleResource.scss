@@ -1,0 +1,45 @@
+.body {
+  :global {
+    .ant-tree {
+      li {
+        white-space: inherit;
+        &.no_expand {
+          display: inline-block;
+        }
+        .ant-tree-node-content-wrapper {
+          cursor: inherit;
+          &:hover {
+            background-color: transparent;
+          }
+          &.ant-tree-node-selected {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+
+    .ant-radio-group-large {
+      width: 500px;
+      .ant-radio-button-wrapper {
+        width: 25%;
+        text-align: center;
+      }
+    }
+  }
+
+  .tabs {
+    &_bar {
+      margin: 30px auto;
+      width: 500px;
+    }
+    &_content {
+      margin: 20px;
+      &_pane {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
+    }
+  }
+}

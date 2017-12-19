@@ -1,0 +1,59 @@
+.modal {
+  :global {
+    .yundao-modal {
+      width: 900px;
+      min-width: 900px;
+    }
+  }
+  .content {
+    width: 404px;
+  }
+  .control {
+    display: 'flex';
+    width: '60px';
+    background-color: '#fff';
+    flex-direction: 'column';
+    align-items: 'center';
+    justify-content: 'center';
+     :global {
+      .ant-btn {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        border-color: transparent;
+        margin: 20px 0px;
+        color: #D4A667;
+        background-color: transparent;
+        &:disabled {
+          color: #ccc;
+        }
+        .anticon {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .filter_table {
+    padding: 20px;
+    .title {
+      font-family: PingFangSC-Medium,sans-serif;;
+      font-size: 15px;
+      color: #475372;
+      margin: 10px 0px 20px;
+    }
+     :global {
+      .vant-filter-bar {
+        height: auto;
+      }
+    }
+    .search {
+      margin-bottom: 18px;
+       :global {
+        .ant-input {
+          height: 40px;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}

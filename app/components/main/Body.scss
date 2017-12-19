@@ -1,0 +1,21 @@
+.body {
+  margin-top: 66px;
+  .sidemenu {
+    background-color: #475372;
+    overflow: auto;
+  }
+  :global {
+    .ant-layout-sider-collapsed {
+      overflow: initial;
+
+      // + .ant-layout {
+      //   .float-detail-wrap.open {
+      //     left: 300px;
+      //   }
+      // }
+    }
+    .ant-menu-inline-collapsed {
+      width: inherit;
+    }
+  }
+}

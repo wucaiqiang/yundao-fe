@@ -1,0 +1,17 @@
+.gray {
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+}
+
+
+.operation{
+  a{
+    padding-right: 10px;
+  }
+  :global{
+    .status{
+      padding-right: 10px;
+    }
+  }
+}

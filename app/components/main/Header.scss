@@ -1,0 +1,124 @@
+.header {
+  &_isv {
+    float: left;
+    width: 200px;
+    border-right: 1px solid #303855;
+    background-color: #3d4768;
+    text-align: center;
+    img {
+      vertical-align: middle;
+    }
+    &_collapsed {
+      width: 100px;
+    }
+    &_logo {
+      margin-left: 50px;
+    }
+  }
+  &_company {
+    display: inline-flex;
+    float: left;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    img {
+      margin-left: 12px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    :global {
+      .anticon {
+        padding: 22px 24px;
+        font-size: 20px;
+        border-right: 1px solid #e9e9e9;
+        cursor: pointer;
+      }
+    }
+  }
+  &_module {
+    margin: auto;
+    width: 385px;
+    :global {
+      .ant-menu-horizontal {
+        border-bottom-width: 0;
+        background-color: transparent;
+      }
+      .ant-menu-item {
+        line-height: 63px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #666;
+        &:hover,
+        &-active,
+        &-selected {
+          color: #475372;
+          border-color: #475372;
+        }
+
+        .anticon {
+          display: inline-block;
+          margin-top: -3px;
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  &_menu {
+    float: right;
+    margin-right: 50px;
+    font-size: 14px;
+    &_item {
+      display: inline-block;
+      margin-left: 20px;
+    }
+  }
+  .message {
+    :global {
+      .ant-badge {
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+  .mobile {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #3d4768;
+    :global {
+      .anticon {
+        margin-left: 18px;
+        font-weight: bold;
+        color: #aeb9c1;
+      }
+      .ant-dropdown {
+        top: 64px !important;
+      }
+    }
+    &_dropdown {
+      width: 180px;
+      box-shadow: #d8d8d8 0 0 8px;
+      :global {
+        .ant-menu-item {
+          height: 49px;
+          line-height: 49px;
+          border-bottom: 1px solid #e0e4e8;
+          &:last-child {
+            border-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+  .avatar {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    img {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+}

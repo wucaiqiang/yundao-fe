@@ -1,0 +1,31 @@
+.modal {
+    :global{
+      .ant-modal-body{
+        padding:16px;
+      }
+      .ant-table-thead > tr > th {
+        background-color: rgba(224, 228, 232, 0.5);
+        .ant-table-filter-selected.anticon-filter {
+          color: #d4a667;
+        }
+      }
+      .ant-table-tbody > tr {
+        color: #333;
+        &:hover,
+        &.ant-table-row-hover {
+          > td {
+            background-color: rgba(242, 212, 170, 0.12);
+          }
+        }
+      }
+      .ant-table-thead > tr > th,
+      .ant-table-tbody > tr > td {
+        // padding: 14px 8px 14px 20px;
+        // white-space: nowrap;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        overflow: hidden;
+      }
+    }
+  }
+  

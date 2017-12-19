@@ -1,0 +1,18 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "code": 0,
+        "name": "A[最重要]"
+    }, {
+        "code": 1,
+        "name": "B[重要]"
+    }, {
+        "code": 2,
+        "name": "C[普通]"
+    }, {
+        "code": 3,
+        "name": "D[沉默]"
+    }]
+}

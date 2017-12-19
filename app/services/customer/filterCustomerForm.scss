@@ -1,0 +1,78 @@
+.filterForm {
+  :global {
+    .ant-form-item {
+      margin-bottom: 5px;
+      &:last-of-type {
+        padding-left: 90px;
+      }
+    }
+    .ant-form-item-label {
+      width: 90px;
+      font-size: 14px;
+      text-align: left;
+      &:after {
+        content: ":";
+        position: relative;
+        top: -2px;
+        margin-right: 8px;
+        margin-left: 2px;
+      }
+      label {
+        font-size: 14px;
+      }
+    }
+    .ant-calendar-picker {
+      width: 180px;
+    }
+    .ant-calendar-year-select,
+    .ant-calendar-prev-year-btn,
+    .ant-calendar-next-year-btn {
+      display: none;
+    }
+
+    .ant-checkbox {
+      display: none;
+    }
+    .ant-checkbox + span {
+      padding: 3px 8px;
+      border: 1px solid #f5f5f5;
+      background-color: #f5f5f5;
+    }
+
+    .ant-checkbox-checked + span {
+      background-color: #fff;
+      border-color: #d4a667;
+      color: #d4a667;
+    }
+
+    .ant-btn {
+      margin-right: 15px;
+    }
+
+    .ant-form-item-control {
+      .ant-input-lg,
+      .ant-input-number-lg {
+        height: 32px;
+        max-width: 500px;
+      }
+
+      .ant-select-lg {
+        max-width: 500px;
+        .ant-select-selection--multiple {
+          min-height: 32px;
+          line-height: 32px;
+        }
+        .ant-select-selection__rendered {
+          line-height: 30px;
+          .ant-select-selection__placeholder {
+            font-size: 14px;
+          }
+          li {
+            height: 24px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

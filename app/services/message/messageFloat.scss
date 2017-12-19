@@ -1,0 +1,188 @@
+:global {
+  .messageList {
+    float: inherit;
+    width: 100%;
+    .empty {
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    > li {
+      float: inherit;
+      padding: 20px 25px 0px;
+      position: relative;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(242, 212, 170, 0.2);
+        // box-shadow: rgb(242, 212, 170) 0 0 10px;
+      }
+      &.active {
+        .hd {
+          &:before {
+            content: " ";
+            position: absolute;
+            border: 3px solid #d4a667;
+            border-radius: 50%;
+            background-color: #d4a667;
+            left: -7px;
+            top: 50%;
+            margin-top: -3px;
+          }
+        }
+      }
+      .hd,
+      .bd {
+        position: relative;
+        padding: 0px 10px;
+      }
+      .title {
+        font-family: PingFangSC-Medium;
+        font-size: 15px;
+        color: #505050;
+        letter-spacing: 0;
+        line-height: 14px;
+      }
+      .date {
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #999999;
+        letter-spacing: 0;
+        line-height: 14px;
+      }
+      .bd {
+        margin-top: 15px;
+        font-family: PingFangSC-Regular;
+        font-size: 13px;
+        color: #999999;
+        letter-spacing: 0;
+        line-height: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ebebeb;
+      }
+    }
+  }
+  body > article {
+    overflow-x: hidden;
+  }
+  #header_message {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #messageFloat {
+    .grid-panel {
+      left: inherit;
+      right: inherit;
+      top: inherit;
+      bottom: inherit;
+      position: inherit;
+      .ant-modal-mask {
+        position: absolute;
+        z-index: 2;
+      }
+      .float-detail-wrap {
+        top: 0px;
+        z-index: 2;
+        &.float-message-detail-wrap {
+          background-color: #fff;
+          width: 500px;
+          left: auto;
+          right: -100%;
+          top: 64px;
+          z-index: 11;
+          &.open {
+            left: auto;
+            right: 0;
+          }
+          .float-detail-hd {
+            background-color: #e0e4e8;
+            font-family: PingFangSC-Medium;
+            font-size: 16px;
+            color: #475372;
+            height: 51px;
+            line-height: 51px;
+            padding: 0px 20px; // position: fixed;
+            width: 500px;
+            border-bottom: 1px solid #e0e4e8;
+            .icon {
+              position: absolute;
+              top: 14px;
+              left: 20px;
+            }
+            .anticon {
+              color: #465074;
+            }
+          }
+          .float-detail-bd {
+            margin: 0;
+            width: 500px;
+            // padding-top: 51px;
+          }
+        }
+        .float-detail-main-wrap {
+          right: 0;
+          width: 100%;
+          border-right: 0;
+          .float-detail-main {
+            // margin-right: 20px;
+            .ant-tabs {
+              top: 51px;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              position: absolute;
+              .ant-tabs-content {
+                margin-left: 0%;
+                top: 47px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                .ant-tabs-tabpane {
+                  position: relative;
+                  overflow: auto;
+                  padding: 0;
+                  background-color: #fff;
+
+                  // .ant-btn {
+                  //   border-width: 0px;
+                  // }
+                }
+              }
+            }
+            .ant-tabs-bar {
+              z-index: 2;
+              background-color: #fff;
+              position: absolute;
+              width: 100%;
+              .ant-tabs-nav {
+                margin: 0 auto;
+                float: inherit;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                .ant-tabs-ink-bar {
+                  background-color: #d4a667;
+                }
+                .ant-tabs-tab {
+                  padding: 16px 0px;
+                  font-family: PingFangSC-Medium;
+                  font-size: 15px;
+                  letter-spacing: 0;
+                  line-height: 13px;
+                  &.ant-tabs-tab-active,
+                  &:hover {
+                    color: #d4a667;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

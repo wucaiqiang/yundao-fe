@@ -1,0 +1,96 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "id": 57634,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "PC",
+        "code": "front.zcmall",
+        "status": 1
+    }, {
+        "id": 57635,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "H5",
+        "code": "zcmall.h5",
+        "status": 1
+    }, {
+        "id": 57638,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "400电话",
+        "code": "client.source.tel400",
+        "status": 1
+    }, {
+        "id": 57641,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "线上客服",
+        "code": "client.source.53cs",
+        "status": 1
+    }, {
+        "id": 57656,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "线下活动",
+        "code": "client.source.offline.show",
+        "status": 1
+    }, {
+        "id": 57657,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "安卓",
+        "code": "zcmall.android",
+        "status": 1
+    }, {
+        "id": 57658,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "其他",
+        "code": "client.source.platform",
+        "status": 1
+    }, {
+        "id": 57676,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "IOS",
+        "code": "zcmall.ios",
+        "status": 1
+    }, {
+        "id": 57727,
+        "creatorId": null,
+        "createTime": "2016-04-28 00:00:00",
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": 57633,
+        "name": "富德南海",
+        "code": "frontapp_fdh",
+        "status": 1
+    }]
+}

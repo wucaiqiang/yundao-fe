@@ -1,0 +1,28 @@
+.modal {
+  :global {
+    .ant-modal-body {
+      overflow: auto;
+      padding: 20px 40px;
+      .ant-calendar-picker {
+        width: 100%;
+      }
+      .ant-input-number-lg {
+        width: 92%;
+        // .ant-input-number-input {
+        //   height: 38px;
+        // }
+      }
+
+      .kaipianDate {
+        text-align: right;
+        .ant-form-item-label {
+          margin-right: 15px;
+          vertical-align: top;
+        }
+        .ant-form-item-control-wrapper {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

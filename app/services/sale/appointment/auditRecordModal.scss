@@ -1,0 +1,124 @@
+.modal {
+  :global {
+    .ant-modal-body {
+      max-height: 500px;
+      padding: 20px;
+      overflow: auto;
+      .ant-form-item-label label,
+      .ant-form-item-control {
+        line-height: initial !important;
+      }
+      .anticon {
+        color: #d4a667;
+      }
+    }
+    .ant-modal-footer {
+      .ant-btn {
+        border-radius: 2px;
+      }
+    }
+
+    .ant-confirm-body {
+      padding: 20px;
+      .ant-confirm-content {
+        margin-top: 23px;
+      }
+      .ant-form-item-label label,
+      .ant-form-item-control {
+        line-height: initial !important;
+      }
+      .anticon {
+        color: #d4a667;
+      }
+    }
+
+    .disabled {
+      float: right;
+      color: #999;
+    }
+  }
+
+  .titleLink {
+    color: #c8a775;
+    font-size: 15px;
+  }
+
+  .record {
+    // max-height: 500px;
+    &_empty {
+      text-align: center;
+    }
+    &_reject {
+      margin-bottom: 15px;
+      &_body {
+        padding: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        background-color: #f2f4f7;
+        color: #666;
+        &_label {
+          font-family: PingFangSC-Regular, sans-serif;
+          color: #2a2a2a;
+        }
+      }
+    }
+    &_item {
+      :global {
+        .first_item_time {
+          &:before {
+            visibility: hidden;
+          }
+        }
+      }
+      &_time {
+        position: relative;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 32px;
+        font-size: 13px;
+        color: #475372;
+        &:before,
+        &:after {
+          content: " ";
+          position: absolute;
+          left: 20px;
+          width: 1px;
+          height: 14px;
+          background-color: #e0e4e8;
+        }
+        &:before {
+          top: 0;
+        }
+        &:after {
+          bottom: 0;
+        }
+        span {
+          padding-right: 11px;
+          &:before {
+            content: " ";
+            position: absolute;
+            top: 17px;
+            left: 17px;
+            width: 7px;
+            height: 7px;
+            background-color: #f2d4aa;
+            border-radius: 50%;
+          }
+        }
+      }
+      &_body {
+        padding: 15px;
+        background-color: #f2f4f7;
+        border-radius: 2px;
+        color: #666;
+        span {
+          margin-right: 10px;
+        }
+        &_label {
+          font-family: PingFangSC-Regular, sans-serif;
+          color: #2a2a2a;
+        }
+      }
+    }
+  }
+}

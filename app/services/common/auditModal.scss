@@ -1,0 +1,13 @@
+.modal {
+  max-width: initial;
+  overflow-y: auto;
+
+  :global {
+    .ant-modal-body {
+      padding: 30px 20px 0 40px;
+      .ant-form-item-label label {
+        line-height: 30px;
+      }
+    }
+  }
+}

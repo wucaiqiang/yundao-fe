@@ -1,0 +1,30 @@
+.body {
+   :global {
+    .ant-table-row-expand-icon-cell,
+    .ant-table-expand-icon-th {
+      //   display: none;
+      visibility: hidden;
+    }
+    .ant-table-header{
+        background-color: transparent;
+    }
+    .ant-table-thead > tr > th{
+        background-color: transparent;
+    }
+    
+    tr.ant-table-expanded-row, tr.ant-table-expanded-row:hover{
+        background-color: transparent;
+    }
+    .ant-table-tbody>tr {
+      &:hover {
+        background-color: transparent;
+        td{
+            background-color: transparent;
+        }
+      }
+      &>td {
+        border: none;
+      }
+    }
+  }
+}

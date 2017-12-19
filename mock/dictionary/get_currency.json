@@ -1,0 +1,16 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "code": "CNY",
+        "name": "人民币",
+        "symbol": "￥",
+        "currencyUnit": "元"
+    }, {
+        "code": "USD",
+        "name": "美元",
+        "symbol": "$",
+        "currencyUnit": "美元"
+    }]
+}

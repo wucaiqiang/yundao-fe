@@ -1,0 +1,69 @@
+.import_btn {
+   :global {
+    .ant-btn-group {
+      display: inline-flex;
+    }
+    .ant-btn {
+      font-size: 22px;
+      color:#f2d5aa;
+      background-color: #465174;
+      border-radius: 2px;
+      border-color: #465174;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 16px;
+        margin-right: 9px;
+      }
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.import {
+  width: 136px;
+   :global {
+    .ant-menu {
+      border: none;
+      background-color: transparent;
+      .ant-menu-item {
+        margin: 5px 0px;
+        background-color: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.20);
+        border-radius: 2px;
+        font-family: PingFangSC-Regular;
+        font-size: 14px;
+        color: #666666;
+        &.ant-menu-item-active {
+          background-color: #E0E4E8;
+        }
+      }
+    }
+  }
+}
+
+.drop_menu{
+  :global{
+    .ant-dropdown-menu-item{
+      padding:10px 20px;
+      font-size: 13px;
+    }
+  }
+}
+
+
+.operation{
+  a{
+    padding-right: 10px;
+  }
+  :global{
+    .status{
+      padding-right: 10px;
+    }
+  }
+}

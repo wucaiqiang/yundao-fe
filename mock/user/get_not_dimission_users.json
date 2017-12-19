@@ -1,0 +1,37 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": {
+        "pageSize": 10,
+        "totalCount": 2,
+        "currentPage": 1,
+        "totalPage": 1,
+        "datas": [{
+            "id": 6,
+            "realName": "1111111",
+            "username": "ouyangli1",
+            "roleNames": ["角色2"],
+            "mobile": "18761966494",
+            "jobNumber": "111111",
+            "departmentId": 6,
+            "departmentName": "b部门",
+            "isDimission": 0,
+            "leaderId": 1,
+            "leaderName": null
+        }, {
+            "id": 8,
+            "realName": "1111113",
+            "username": "1111113",
+            "roleNames": ["角色1", "角色2"],
+            "mobile": "18761966496",
+            "jobNumber": "1111113",
+            "departmentId": 6,
+            "departmentName": "b部门",
+            "isDimission": 0,
+            "leaderId": 1,
+            "leaderName": null
+        }],
+        "map": null
+    }
+}

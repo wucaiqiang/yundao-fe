@@ -1,0 +1,106 @@
+.body {
+    // display: flex;
+}
+
+.multiple_selection {
+    border: 1px solid #E0E4E8;
+    border-radius: 2px;
+    &:hover {
+        border-color: #49a9ee;
+    }
+    &:focus {
+        border-color: #49a9ee;
+        outline: 0;
+        box-shadow: 0 0 0 2px rgba(16, 142, 233, 0.2);
+    }
+    .inner_form_list {
+         :global {
+            .ant-input {
+                border: none;
+                &:hover,
+                &:active,
+                &:focus {
+                    border: none;
+                    outline: 0;
+                    box-shadow: none;
+                }
+            }
+            .ant-form-item-control {
+                line-height: 40px;
+            }
+            .ant-form-explain {
+                display: none;
+            }
+            .ant-input-affix-wrapper {
+                .ant-input-suffix {
+                    margin-top: 0px;
+                }
+            }
+        }
+        .inner_form_item {
+            &:last-child {
+                 :global {
+                    .ant-form-item-with-help {
+                        .ant-form-explain {
+                            font-size: 12px;
+                            display: inherit;
+                            padding: 6px 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dynamic_delete_button {
+        cursor: pointer;
+        position: relative;
+        transition: all .3s;
+        &[disabled] {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+    }
+    .pointer_add {
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+         :global {
+            .ant-input {
+                background-color: transparent;
+                border: none;
+            }
+            .ant-input-suffix {
+                margin-top: -5px;
+            }
+        }
+    }
+}
+
+:global {
+    .edit_elements_modal {
+        .ant-radio-group {
+            // display: flex;
+        }
+        .ant-form-item-label {
+            label {
+                font-family: PingFangSC-Regular,sans-serif;
+                font-size: 16px;
+                color: #999999;
+            }
+        }
+        .ant-form-item-control-wrapper {
+            .ant-radio-wrapper {
+                font-family: PingFangSC-Regular,sans-serif;
+                font-size: 14px;
+                color: #666666;
+            }
+        }
+        .ant-form-item>.ant-form-item,
+        .ant-form-item :not(.ant-form)>.ant-form-item {
+            margin-bottom: 0px;
+        }
+        .ant-form-item-control {
+                line-height: 40px;
+            }
+    }
+}

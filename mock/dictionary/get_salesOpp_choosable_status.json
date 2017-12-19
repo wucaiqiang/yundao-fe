@@ -1,0 +1,26 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "id": null,
+        "creatorId": null,
+        "createTime": null,
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": null,
+        "name": "可跟进",
+        "code": "30",
+        "status": null
+    }, {
+        "id": null,
+        "creatorId": null,
+        "createTime": null,
+        "updaterId": null,
+        "updateTime": null,
+        "parentId": null,
+        "name": "明确意向",
+        "code": "40",
+        "status": null
+    }]
+}

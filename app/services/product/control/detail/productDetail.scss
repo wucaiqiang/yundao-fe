@@ -1,0 +1,220 @@
+.product_detail {
+  background-color: #f2f4f7;
+  .header {
+    padding: 30px 29px 0px;
+    background-color: #fff;
+    .title {
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 24px;
+      color: #475372;
+      margin-bottom: 25px;
+      
+      .btnfollow {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        border: none;
+        text-align: center;
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        color: #444;
+        :global {
+          img {
+            width: 18px;
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+  .tags {
+    padding-bottom: 18px;
+    span {
+      display: inline-block;
+      background: rgba(71, 83, 114, 0.1);
+      border-radius: 2px;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 12px;
+      color: #475372;
+      padding: 7px 11px;
+      margin-right: 12px;
+    }
+  }
+  .summary {
+    font-family: PingFangSC-Regular, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 25px;
+  }
+}
+
+.content {
+  :global {
+    .ant-tabs-ink-bar {
+      background-color: #f2d4aa;
+    }
+
+    .ant-tabs-bar {
+      background-color: #fff;
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    .ant-tabs-tab {
+      margin-right: 0;
+      padding: 19px 28px 16px;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 16px;
+      color: #999999;
+      &.ant-tabs-tab-active {
+        color: #475372;
+      }
+    }
+    .ant-tabs-tabpane {
+      padding: 20px 20px 50px;
+    }
+    .ant-form-item-label label {
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 14px;
+      color: #999;
+      line-height: 40px;
+    }
+    .ant-form-item-control {
+      line-height: 40px !important;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 17px;
+      color: #666;
+      .ant-form-explain {
+        font-size: 12px;
+      }
+    } // .ant-table-row {
+    //   .ant-table-col {
+    //     overflow: hidden;
+    //     white-space: nowrap;
+    //     text-overflow: ellipsis;
+    //   }
+    // }
+  }
+  // .quote,
+  // .commission {
+  //   :global {
+  //     .header {
+  //       display: flex;
+  //       justify-content: space-between;
+  //       padding: 15px 0px;
+  //       .title {
+  //         font-family: PingFangSC-Regular, sans-serif;
+  //         font-size: 14px;
+  //         color: #999999;
+  //       }
+  //       .btns {
+  //         .anticon-plus {
+  //           color: #d4a667;
+  //         }
+  //       }
+  //     }
+  //     .vant-filter-bar .vant-float-bar.open {
+  //       width: auto;
+  //       left: 0;
+  //       right: auto;
+  //       // background-color: #fafafa;
+  //     }
+  //     .ant-input-group {
+  //       display: flex;
+  //     }
+  //     .ant-input-number {
+  //       display: flex;
+  //       .ant-input-number-input {
+  //         // height: auto;
+  //       }
+  //     }
+  //     .ant-form-item-control {
+  //       height: 28px !important;
+  //       line-height: 26px !important;
+  //       .ant-input-number {
+  //         height: 28px;
+  //       }
+  //       .ant-input-lg,
+  //       .ant-input-number-lg {
+  //         height: 28px;
+  //         input {
+  //           height: 26px;
+  //         }
+  //       }
+  //       .ant-select .ant-select-selection--single,
+  //       .ant-select-lg .ant-select-selection--single,
+  //       .ant-select .ant-select-selection__rendered,
+  //       .ant-select-lg .ant-select-selection__rendered {
+  //         height: 28px;
+  //         line-height: 26px;
+  //       }
+  //       .ant-form-explain {
+  //         font-size: 12px;
+  //       }
+  //     }
+  //     .ant-table-thead > tr.ant-table-row-hover > td,
+  //     .ant-table-tbody > tr.ant-table-row-hover > td,
+  //     .ant-table-thead > tr:hover > td,
+  //     .ant-table-tbody > tr:hover > td {
+  //       background-color: transparent;
+  //     }
+  //     .ant-table-tbody {
+  //       .ant-table-selection-column {
+  //         padding-top: 16px;
+  //         vertical-align: top;
+  //       }
+  //     }
+  //     td {
+  //       &.name,
+  //       &.remark {
+  //         vertical-align: top;
+  //         padding-top: 16px !important;
+  //       }
+  //       &.operation{
+  //         .ant-row.child{
+  //           line-height: 52px;
+  //           height: 52px;
+  //           .action_icons{
+  //             display: flex;
+  //             a{
+  //               line-height: 26px;
+  //               padding-right: 10px;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //     .ant-table-thead > tr > th {
+  //       background-color: rgba(224, 228, 232, 0.25);
+  //     }
+  //     // .ant-table-tbody > tr > td {
+  //     //   padding: 0px;
+  //     // }
+  //     .multipleFormTable_child {
+  //       .child {
+  //         // padding: 16px 8px 0px;
+  //         .action_icons {
+  //           display: none;
+  //           .anticon {
+  //             font-size: 16px;
+  //             color: #d4a667;
+  //             cursor: pointer;
+  //           }
+  //         }
+  //         &:hover {
+  //           .action_icons {
+  //             height: 28px;
+  //             display: flex;
+  //             justify-content: space-around;
+  //             align-items: center;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+}

@@ -1,0 +1,14 @@
+.modal {
+  :global {
+    .ant-modal-body {
+      padding: 35px 40px;
+      min-height: 300px;
+    }
+  }
+  .title {
+    margin-bottom: 17px;
+    line-height: 22px;
+    color: #999;
+    font-size: 16px;
+  }
+}

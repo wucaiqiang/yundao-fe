@@ -1,0 +1,99 @@
+.page {
+  :global {
+    .ant-popover-inner-content {
+      .ant-popover-message-title {
+        padding-left: 20px;
+        line-height: 1.5;
+        font-size: 12px;
+        color: #656565;
+      }
+      .anticon-exclamation-circle {
+        display: inline-block;
+      }
+    }
+  }
+  .info_tables {
+    .table {
+      border: 1px solid #e9e9e9;
+      border-radius: 6px;
+      margin-bottom: 37px;
+      :global {
+        .ant-table-footer {
+          background-color: transparent;
+          &:before {
+            background-color: #e9e9e9;
+          }
+        }
+      }
+      &_footer {
+        background-color: #fff;
+        text-align: center;
+        :global {
+          .anticon-plus {
+            margin-right: 5px;
+            font-weight: 700;
+            color: #989898;
+          }
+        }
+      }
+    }
+  }
+  .card {
+    // background: #fff;
+    // border-radius: 2px;
+    // margin-bottom: 24px;
+    // .header {
+    //   border-bottom: 1px solid #e0e4e8;
+    //   display: flex;
+    //   justify-content: space-between;
+    //   align-items: center;
+    //   padding: 19px 20px;
+    //   .title {
+    //     font-family: PingFangSC-Medium, sans-serif;
+    //     font-size: 16px;
+    //     color: #475372;
+    //     margin-bottom: 0px;
+    //   }
+    // }
+    .content {
+      // overflow: auto;
+      // :global {
+      //   .ant-form-item-label label {
+      //     font-family: PingFangSC-Regular, sans-serif;
+      //     font-size: 14px;
+      //     color: #999;
+      //     line-height: 40px;
+      //   }
+      //   .ant-form-item-control {
+      //     line-height: 40px !important;
+      //     font-family: PingFangSC-Regular, sans-serif;
+      //     font-size: 17px;
+      //     color: #666;
+      //   }
+      // }
+      .icons {
+        margin-bottom: 20px;
+        :global {
+          .ant-btn {
+            border: 1px solid #108ee9;
+            border-radius: 4px;
+            font-family: PingFangSC-Regular;
+            font-size: 12px;
+            color: #108ee9;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .found_list {
+    &_item {
+      &:first-child {
+        margin-top: -10px;
+      }
+      list-style: none;
+      margin-bottom: 10px;
+    }
+  }
+
+}

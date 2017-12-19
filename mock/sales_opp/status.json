@@ -1,0 +1,18 @@
+{
+    "code": 1,
+    "success": true,
+    "message": "成功",
+    "result": [{
+        "code": 20,
+        "name": "客户咨询"
+    }, {
+        "code": 30,
+        "name": "可跟进"
+    }, {
+        "code": 40,
+        "name": "明确意向"
+    }, {
+        "code": 80,
+        "name": "创建订单"
+    }]
+}

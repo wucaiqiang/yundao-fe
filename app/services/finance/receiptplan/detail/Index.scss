@@ -1,0 +1,107 @@
+:global {
+  .float-plan-detail-wrap {
+    z-index: 11;
+  }
+}
+
+.detail {
+  background-color: #f2f4f7;
+  .header {
+    padding: 20px;
+    background-color: #fff;
+    :global {
+      .ant-form-item-label {
+        width: 80px;
+        text-align: left;
+      }
+      // .ant-input-number-input {
+      //   height: 38px;
+      //   line-height: 38px;
+      // }
+    }
+    .bigLabel {
+      :global {
+        .ant-form-item-label {
+          width: 120px;
+        }
+
+        .ant-input-number-lg {
+          width: 100px;
+        }
+      }
+    }
+    .viewDetail {
+      :global {
+        .ant-form-item {
+          margin-bottom: 0;
+          .ant-form-item-control {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .planName {
+      font-size: 20px;
+    }
+    .icons {
+      display: inline-block;
+      line-height: 40px;
+      :global {
+        .anticon {
+          margin-left: 10px;
+          cursor: pointer;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  padding: 1.5rem;
+  .supplier {
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  :global {
+    .ant-tabs-ink-bar {
+      background-color: #f2d4aa;
+    }
+    .ant-tabs-bar {
+      margin-bottom: 0;
+      background-color: #fff;
+      border-bottom: 2px solid #e0e4e8;
+    }
+    .ant-tabs-tab {
+      margin-right: 0;
+      padding: 19px 28px 14px;
+      font-family: PingFangSC-Regular, sans-serif;
+      font-size: 18px;
+      color: #999999;
+      &.ant-tabs-tab-active {
+        color: #475372;
+      }
+    }
+    .ant-tabs-tabpane {
+      padding: 20px 20px 50px;
+      background-color: #fff;
+    }
+    .ant-card-head {
+      height: 60px;
+      line-height: 60px;
+      border-bottom: 2px solid #e0e4e8;
+      .ant-card-head-title {
+        color: #475372;
+        font-size: 18px;
+        vertical-align: middle;
+      }
+    }
+    .vant-filter-bar-action {
+      .ant-btn {
+        border-width: 0;
+        font-size: 24px;
+        color: #d4a667;
+      }
+    }
+  }
+}

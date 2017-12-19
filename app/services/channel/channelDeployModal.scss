@@ -1,0 +1,21 @@
+.modal {
+  :global {
+    .ant-confirm-body {
+      padding: 20px;
+      .ant-form-item-label label,
+      .ant-form-item-control {
+        line-height: initial !important;
+      }
+      .ant-confirm-content {
+        max-height: 200px;
+        overflow: auto;
+      }
+      .anticon {
+        color: #d4a667;
+      }
+      .channel-name {
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
